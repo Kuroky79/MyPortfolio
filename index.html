@@ -5,112 +5,347 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyPortfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Restaurant</title>
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <h2 class="logo"><strong>Portfo<span>lio</span></strong></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-            <a href="#" class="btn">Subscribe me</a>
-        </nav>
-        <div class="content">
-            <h3>Hello,my name is</h3>
-            <h1>Alabuzhev <span>Daniil</span></h1>
-            <h4>I'm a beginner frontend developer</h4>
-            <div class="newslatter">
+
+<!---header--->
+<header>
+    <a href="#" class="logo"><img src="logo.svg"></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="cart"><i class='bx bxs-cart-download'></i></a></li>
+    </ul>
+
+    <div class="top-btn">
+        <a href="#">Order Now</a>
+    </div>
+</header>
+
+<!---home--->
+<section class="home" id="home">
+    <div class="home-text">
+        <h3>Welcome</h3>
+        <h1>Enjoy The Organic Food</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut</p>
+        <a href="#" class="btn">About Us</a>
+    </div>
+
+    <div class="home-img">
+        <img src="hero.png">
+    </div>
+</section>
+
+<!---about--->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="about.png">
+    </div>
+
+    <div class="about-text">
+        <h3>About Us</h3>
+        <h2>Food Ex Restaurant</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <a href="#" class="btn">About Us</a>
+    </div>
+</section>
+
+<!---food menu--->
+<section class="menu" id="menu">
+    <div class="center-text">
+        <h3>Food Menu</h3>
+        <h2>Delicious food</h2>
+    </div>
+
+    <div class="menu-content">
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img">
+                    <img src="food.png">
+                </div>
+
+                <div class="box-text">
+                    <h4>Corn-Shrimp</h4>
+                    <p>Whales and darkness moving form cattle</p>
+                    <h6>$32</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img">
+                    <img src="food.png">
+                </div>
+
+                <div class="box-text">
+                    <h4>Corn-Shrimp</h4>
+                    <p>Whales and darkness moving form cattle</p>
+                    <h6>$32</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img">
+                    <img src="food.png">
+                </div>
+
+                <div class="box-text">
+                    <h4>Corn-Shrimp</h4>
+                    <p>Whales and darkness moving form cattle</p>
+                    <h6>$32</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img">
+                    <img src="food.png">
+                </div>
+
+                <div class="box-text">
+                    <h4>Corn-Shrimp</h4>
+                    <p>Whales and darkness moving form cattle</p>
+                    <h6>$32</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img">
+                    <img src="food.png">
+                </div>
+
+                <div class="box-text">
+                    <h4>Corn-Shrimp</h4>
+                    <p>Whales and darkness moving form cattle</p>
+                    <h6>$32</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img">
+                    <img src="food.png">
+                </div>
+
+                <div class="box-text">
+                    <h4>Corn-Shrimp</h4>
+                    <p>Whales and darkness moving form cattle</p>
+                    <h6>$32</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box-btn">
+        <a href="#" class="btn">About Us</a>
+    </div>
+</section>
+
+<!---team--->
+<section class="team" id="team">
+    <div class="center-text">
+        <h3>Team</h3>
+        <h2>Our Experience Chefs</h2>
+    </div>
+
+    <div class="team-content">
+        <div class="row">
+            <div class="team-img">
+                <img src="team1.jpg">
+            </div>
+            <h4>Mark Anthony</h4>
+            <p>Executive Chef</p>
+            <div class="team-icon">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="team-img">
+                <img src="team2.jpg">
+            </div>
+            <h4>Mark Anthony</h4>
+            <p>Executive Chef</p>
+            <div class="team-icon">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="team-img">
+                <img src="team1.jpg">
+            </div>
+            <h4>Mark Anthony</h4>
+            <p>Executive Chef</p>
+            <div class="team-icon">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="team-img">
+                <img src="team2.jpg">
+            </div>
+            <h4>Mark Anthony</h4>
+            <p>Executive Chef</p>
+            <div class="team-icon">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!---newsletter--->
+<section>
+    <div class="container">
+        <div class="newsletter-content">
+            <div class="news-img">
+                <img src="discount.svg">
+            </div>
+
+            <div class="news-text">
+                <h3>Subscribe To Our</h3>
+                <h2>Newsletter</h2>
+                <p>Subscribe to our newsletter and receive 15% <br> discount from your order.</p>
+            </div>
+
+            <div class="letter">
                 <form>
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
-                    <input type="submit" name="submit" value="Input">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="submit" value="Subscribe" required>
                 </form>
             </div>
         </div>
     </div>
-    <!----About section start---->
-    <section class="about">
+</section>
+
+<!---blog--->
+<section class="blog" id="blog">
+    <div class="center-text">
+        <h3>Blog</h3>
+        <h2>Our Food Update</h2>
+    </div>
+
+    <div class="blog-content">
         <div class="main">
-            <img src="1.jpg">
-            <div class="about-text">
-                <h2>About me</h2>
-                <h5>Frontend<span>Developer</span></h5>
-                <p>I am a novice frontend developer.I am studying in RTU MIREA.
-                    I study html,css, Js, a little react, but more vue.js.
-                    I have experience in data science.I have three certificates in data science.
-                    And I will also soon receive a diploma on passing frontend development)</p>
-                <button type="button">Let's talk me</button>
-            </div>
-        </div>
-    </section>
-    <!----service section---->
-    <div class="service">
-        <div class="title">
-            <h2>Our Service</h2>
-        </div>
-        <div class="box">
-        <div class="box1">
-            <div class="card">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-                <h5>My Web <span>developer</span></h5>
-                <div class="pra">
-                    <p>Every website should be built with two primary goals:
-                    Firstly, it needs to work across all devices.Secondly, it needs to be fast as possible</p>
-                    <p style="text-align: center">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+            <img src="blog1.jpg">
+            <div class="blog-text">
+                <h6>June 10, 2022</h6>
+                <h4>Labor Depar rules pro as tweaks overtime</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                <div class="blog-btn">
+                    <a href="#">Learn more</a>
+                    <span><i class='bx bx-right-arrow-alt' ></i></span>
                 </div>
             </div>
         </div>
-        <div class="box2">
-            <div class="card">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"/></svg>
-                <h5>My Web <span>developer</span></h5>
-                <div class="pra">
-                    <p>Every website should be built with two primary goals:
-                        Firstle, it needs to work across all devices.Secondly, it needs to be fast as possible</p>
-                    <p style="text-align: center">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+
+        <div class="main">
+            <img src="blog2.jpg">
+            <div class="blog-text">
+                <h6>June 10, 2022</h6>
+                <h4>Labor Depar rules pro as tweaks overtime</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                <div class="blog-btn">
+                    <a href="#">Learn more</a>
+                    <span><i class='bx bx-right-arrow-alt' ></i></span>
                 </div>
             </div>
         </div>
-        <div class="box3">
-            <div class="card">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32V51.2C329 66.03 384 130.6 384 208V226.8C384 273.9 401.3 319.2 432.5 354.4L439.9 362.7C448.3 372.2 450.4 385.6 445.2 397.1C440 408.6 428.6 416 416 416H32C19.4 416 7.971 408.6 2.809 397.1C-2.353 385.6-.2883 372.2 8.084 362.7L15.5 354.4C46.74 319.2 64 273.9 64 226.8V208C64 130.6 118.1 66.03 192 51.2V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32H256zM224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512z"/></svg>
-                <h5>My Web <span>developer</span></h5>
-                <div class="pra">
-                    <p>Every website should be built with two primary goals:
-                        Firstly, it needs to work across all devices.Secondly, it needs to be fast as possible</p>
-                    <p style="text-align: center">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+
+        <div class="main">
+            <img src="blog3.jpg">
+            <div class="blog-text">
+                <h6>June 10, 2022</h6>
+                <h4>Labor Depar rules pro as tweaks overtime</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                <div class="blog-btn">
+                    <a href="#">Learn more</a>
+                    <span><i class='bx bx-right-arrow-alt' ></i></span>
                 </div>
             </div>
         </div>
-        </div>
+
     </div>
+</section>
 
-
-    <div class="contact-me">
-        <p><i>Let me get you a almost beautiful website.</i></p>
-        <a class="button-two" href="https://vk.com/prospirtovannyy__saharok">Hire me.</a>
-    </div>
-
-    <footer>
-        <p>Alabuzhev Daniil</p>
-        <p>For more HTML,CSS,Js,React and Vue.js -please click
-            on the link below to subscribe my github</p>
+<!---contact--->
+<section class="contact" id="contact">
+    <div class="contact-box">
+        <h3>FoodEx</h3>
+        <h5>Connect With Us</h5>
         <div class="social">
-            <a href="https://vk.com/prospirtovannyy__saharok"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M31.4907 63.4907C0 94.9813 0 145.671 0 247.04V264.96C0 366.329 0 417.019 31.4907 448.509C62.9813 480 113.671 480 215.04 480H232.96C334.329 480 385.019 480 416.509 448.509C448 417.019 448 366.329 448 264.96V247.04C448 145.671 448 94.9813 416.509 63.4907C385.019 32 334.329 32 232.96 32H215.04C113.671 32 62.9813 32 31.4907 63.4907ZM75.6 168.267H126.747C128.427 253.76 166.133 289.973 196 297.44V168.267H244.16V242C273.653 238.827 304.64 205.227 315.093 168.267H363.253C359.313 187.435 351.46 205.583 340.186 221.579C328.913 237.574 314.461 251.071 297.733 261.227C316.41 270.499 332.907 283.63 346.132 299.751C359.357 315.873 369.01 334.618 374.453 354.747H321.44C316.555 337.262 306.614 321.61 292.865 309.754C279.117 297.899 262.173 290.368 244.16 288.107V354.747H238.373C136.267 354.747 78.0267 284.747 75.6 168.267Z"/></svg></a>
-            <a href="https://instagramis.ru/kuro_ky79"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
-            <a href="https://github.com/Kuroky79"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
         </div>
-    </footer>
+    </div>
+
+    <div class="contact-box">
+        <h3>Menu Links</h3>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </div>
+
+    <div class="contact-box">
+        <h3>Our Foods</h3>
+        <li><a href="#">Pizza</a></li>
+        <li><a href="#">Indian Burger</a></li>
+        <li><a href="#">Beef Burger</a></li>
+        <li><a href="#">Toa Heftiba</a></li>
+        <li><a href="#">Shevtsova</a></li>
+    </div>
+
+    <div class="contact-box address">
+        <h3>Contact</h3>
+        <i class='bx bxs-map' ><span>Prospect Vernadskovo 78</span></i>
+        <i class='bx bxs-envelope' ><span>alabuzhev.danil@mail.ru</span></i>
+        <i class='bx bxs-phone' ><span>8(123) 456 78 90</span></i>
+    </div>
+
+</section>
+
+
+
+<!---custom js link--->
+<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>

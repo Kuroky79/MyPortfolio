@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a75b741-8763-46d4-8207-e64698773e89" name="Changes" comment="" />
+    <list default="true" id="5a75b741-8763-46d4-8207-e64698773e89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discount.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1614387481_17-p-svetlii-fon-dlya-zuma-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BAfloM2Cp94TAEUYPU4go5QCSz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,11 +66,22 @@
       <updated>1656353964096</updated>
       <workItem from="1656353965283" duration="2613000" />
       <workItem from="1656368425512" duration="1781000" />
-      <workItem from="1656879987838" duration="24344000" />
+      <workItem from="1656879987838" duration="34607000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
